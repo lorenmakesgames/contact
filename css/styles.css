@@ -59,6 +59,15 @@ header {
     width: 50%;
 }
 
+.links a {
+    color: grey;
+}
+
+.links a:hover {
+    color: rgb(117, 141, 247);
+    /* color:#4CAF50; */
+}
+
 p {
     font-size: 1.5em;
 }
