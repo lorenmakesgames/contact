@@ -37,12 +37,12 @@
       </div>
       <p>You can also shoot me a quick email with this form:</p>
       <form class="email_form">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Jane Doe"/>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" placeholder="janedoe@website.com"/>
-        <label for="message">Message</label>
-        <textarea name="message" id="message" placeholder="Hey there!"></textarea>
+        <label for="name" id="nameLabel">Name</label>
+        <input type="text" aria-labelledby="nameLabel" name="name" id="name" placeholder="Jane Doe"/>
+        <label for="email" id="emailLabel">Email</label>
+        <input type="text" aria-labelledby="emailLabel" name="email" id="email" placeholder="janedoe@website.com"/>
+        <label for="message" id="messageLabel">Message</label>
+        <textarea name="message" aria-labelledby="messageLabel" id="message" placeholder="Hey there!"></textarea>
         <button type="submit">Submit</button>
       </form>
     </div>
